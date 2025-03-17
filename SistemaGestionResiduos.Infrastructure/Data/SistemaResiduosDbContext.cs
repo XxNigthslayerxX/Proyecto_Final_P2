@@ -3,9 +3,9 @@ using SistemaGestionResiduos.Domain.Entities;
 
 namespace SistemaGestionResiduos.Infrastructure.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class SistemaGestionResiduosDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public SistemaGestionResiduosDbContext(DbContextOptions<SistemaGestionResiduosDbContext> options)
             : base(options)
         {
         }
