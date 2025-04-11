@@ -14,4 +14,5 @@ namespace SistemaGestionResiduos.Domain.Entities
             Observaciones = ""; 
         }
 
-        
+    } 
+}
