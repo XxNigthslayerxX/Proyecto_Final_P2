@@ -17,5 +17,6 @@ namespace SistemaGestionResiduos.Domain.Entities
             NivelLlenado = 0;
             RutaId = 0;
         }
-
+    {
         
+}
